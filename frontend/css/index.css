@@ -35,3 +35,32 @@ h6{
     border-style: solid;
 }
 
+
+.navbar {
+    border :3px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    border-color: #010509;
+    padding: 15px;
+    background-color: rgb(28, 2, 49);
+}
+
+.navbar a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    justify-content: space-around;
+        font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #3f034f;
+    color: white;
+}
+
+
+body{
+    margin: 0px;
+}
