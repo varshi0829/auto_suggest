@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/varshi0829/auto_suggest/issues"
   },
-  "homepage": "https://github.com/varshi0829/auto_suggest#readme"
+  "homepage": "https://github.com/varshi0829/auto_suggest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
