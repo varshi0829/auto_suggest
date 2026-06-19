@@ -1,0 +1,19 @@
+{
+  "name": "auto_suggest",
+  "version": "1.0.0",
+  "description": "Verifying my git set up  +_-",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varshi0829/auto_suggest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varshi0829/auto_suggest/issues"
+  },
+  "homepage": "https://github.com/varshi0829/auto_suggest#readme"
+}
