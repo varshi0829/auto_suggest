@@ -1,3 +1,37 @@
 h1{
-    color: #000;
+    color: #9d4ccb;
+    text-align: center;
 }
+
+h2{
+    color: #25608d;
+    text-align: center;
+}
+
+h3{
+    color: #e511c2;
+    text-align: center;
+}
+
+h4{
+    color: #27c7cc;
+    text-align: center;
+}
+
+h5{
+    color: #c3f18f;
+    text-align: center;
+}
+
+h6{
+    color: #f3dc0f;
+    text-align: center;
+}
+
+.para{
+    border: 20px;
+    border-color: #010509;
+    text-align: center;
+    border-style: solid;
+}
+
