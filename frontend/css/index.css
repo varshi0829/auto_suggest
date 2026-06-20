@@ -5,17 +5,28 @@ h1{
 
 h2{
     color: #060606;
+    text-align: center;
 }
 
 h3{
     color: #030303e4;
+    text-align: center; 
 }
 
 h4{
     color: #030303e4;
+    text-align: center;
 }
 
+h5{
+    color: #030303e4;
+    text-align: center;
+}
 
+h6{
+    color: #030303e4;
+    text-align: center;
+}
 
 .para{
     border: 20px;
