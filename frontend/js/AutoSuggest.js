@@ -22,16 +22,23 @@ searchbar.addEventListener("input", function(){
 function showsugg(data){
     var val = data.results;
     if(data.count === 0){
-        searchsuggestions.innerHTML = "<div>No suggestions found</div>";
+        searchsuggestions.innerHTML = "<div class='suggestion-item empty'>No suggestions found</div>";
     }else{
         var htmlString = "";
         for(var i =0;i<val.length;i++)
         {
-            htmlString += "<div>" + val[i].text + "</div>";
+            htmlString += "<div class='suggestion-item'>" + val[i].text + "</div>";
         }
         searchsuggestions.innerHTML = htmlString;
     }
 }
+
+searchsuggestions.addEventListener("click", function(event){
+    if(event.target.classList.contains("suggestion-item") && !event.target.classList.contains("empty")){
+        searchbar.value = event.target.textContent;
+        searchsuggestions.innerHTML = "";
+    }
+});
 
 function fetchsugg(query){
     if(query === ""){
