@@ -1,31 +1,25 @@
 h1{
-    color: #9d4ccb;
-    text-align: center;
+    color: #0a0a0a;
 }
 
 h2{
-    color: #25608d;
-    text-align: center;
+    color: #060606;
 }
 
 h3{
-    color: #e511c2;
-    text-align: center;
+    color: #030303e4;
 }
 
 h4{
-    color: #27c7cc;
-    text-align: center;
+    color: #030303e4;
 }
 
 h5{
-    color: #c3f18f;
-    text-align: center;
+    color: #030303e4;
 }
 
 h6{
-    color: #f3dc0f;
-    text-align: center;
+    color: #030303e4;
 }
 
 .para{
@@ -90,3 +84,4 @@ body{
     cursor: pointer;
     font-size: 16px;
 }
+
