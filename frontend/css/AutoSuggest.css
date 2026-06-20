@@ -1,0 +1,37 @@
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.gear {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.pill {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}   
+
+.being {
+    color: rgb(128, 24, 148);
+}
+
+.phrase{
+    color: rgba(39, 36, 36, 0.477);
+}
+
+.search-bar {
+
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.lens{
+    position: relative;
+    left:35px;
+}
